@@ -24,17 +24,16 @@ module.exports = function(environment) {
     },
 
     blog: {
-      title: 'empress-blog',
-      description: 'Static Blog System - Built with Ember',
+      title: 'KRiME Blog',
+      description: 'Read about the latest news and updates regarding KRiME.',
       coverImage: '/images/blog-cover.jpg',
 
       navigation: [{
         label: 'Home',
         route: 'index'
       }, {
-        label: 'Built by Chris Manson',
-        route: 'page',
-        id: 'chris-manson'
+        label: 'About',
+        route: 'about'
       }]
     },
 
