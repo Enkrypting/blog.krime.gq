@@ -34,7 +34,7 @@ module.exports = function(environment) {
       }, {
         label: 'About',
         route: 'about',
-        id: 'about
+        id: 'about'
       }]
     },
 
@@ -70,7 +70,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    // here you can enable a production-specific feature
+    // nothing (yet!)
   }
 
   return ENV;
