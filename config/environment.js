@@ -33,7 +33,8 @@ module.exports = function(environment) {
         route: 'index'
       }, {
         label: 'About',
-        route: 'about'
+        route: 'about',
+        id: 'about
       }]
     },
 
